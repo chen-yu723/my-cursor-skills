@@ -156,18 +156,5 @@ npx skills update traceability-audit -g -y
 
 本 skill 不修改设计、用例或代码，也不启动服务、不跑测试。
 
----
-
-
-
-## 和相邻 skill 的分工
-
-
-| Skill                        | 分工                              |
-| ---------------------------- | ------------------------------- |
-| `testcase-quality-review`    | 给用例打分，查完整性和生产故障场景有没有写成独立用例。不读代码 |
-| `qa-full-coverage-testcases` | 生成用例。本 skill 不改用例文件             |
-| `req-boundary-analysis`      | 从需求和存量代码里挖没写的边界，产出「交给用例」        |
-| `design-contract-review`     | 审设计文档里的字段、接口和状态契约，此时还没有用例和代码对照  |
 
 
